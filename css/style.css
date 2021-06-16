@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* navbar section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo p{
+    font-size: 3.6rem;
+    font-family: 'Lobster', cursive;
+    color: #F2994A;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+#menu{
+    margin-right: 10rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+}
+
+#menu>div{
+    width: 100%;
+    height: .5rem;
+    background-color: black;
+}
+
+/* skill section */
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4.5rem;
+    font-family: 'Comfortaa', cursive;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* skill-known section */
+.skill-known{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.first-two{
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.skill-para{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.skill-number{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.img-para{
+    display: flex;
+    border: 0.5px solid #31BEBE;
+    border-radius: 0rem 0rem 8.5rem 0rem;
+    padding-right: 2rem;
+    margin-right: 5rem;
+}
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contact{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.footer-contact a{
+    padding: 2rem;
+}
+
+.skill-text{
+    color: #575757;
+    font-size: 2rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.center{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}

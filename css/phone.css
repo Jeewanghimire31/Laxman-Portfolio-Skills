@@ -1,0 +1,62 @@
+html{
+    font-size: 50%;
+}
+
+/* navbar section */
+.navbar{
+    flex-wrap: wrap;
+}
+
+.logo p{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+#menu{
+    margin-right: 5rem;
+    margin-top: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* skill section */
+.skill{
+    flex-wrap: wrap;
+}
+
+#curve{
+    height: 5rem;
+    width: 20rem;
+}
+
+
+/* skill known section */
+
+.skill-known{
+    margin-top: 1rem;
+    margin: 0rem auto;
+    flex-wrap: wrap;
+    /* width: 9rem; */
+}
+
+.first-two{
+    flex-wrap: wrap;
+}
+
+.img-para{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* footer section */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-contact{
+    flex-wrap: wrap;
+}
